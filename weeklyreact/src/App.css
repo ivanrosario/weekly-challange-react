@@ -5,3 +5,18 @@
 body {
   background-color:rgb(0, 132, 180) 
 }
+#done{
+  background-color:green;
+  height:100px;
+  width:100px;
+  border-radius:100%;
+  color:green;
+}
+#pending{
+  background-color:orange;
+  color:orange;
+   height:100px;
+  width:100px;
+  border-radius:100%;
+
+}
