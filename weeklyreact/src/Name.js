@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 
 class Name extends Component {
   render() {
     return (
       <div>
-        <h1 >Hello world, {this.props.name} </h1>
+        <h1 >Hello world, {this.props.name}  </h1>
       </div>
     )
 
