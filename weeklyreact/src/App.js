@@ -27,14 +27,17 @@ class App extends Component {
         phone: "704-777-7777",
       }
     ];
-
+    //HARD: Using an array of contacts, loop through each one and create a new Contact component for each
     const contactList = people.map(function (person, i) {
       return (<Contact key={i} firstName={person.fname} lastName={person.lname} phoneNumber={person.phone} status={person.status} />)
     })
 
     return (
       <div className="challange">
+      //VERY EASY: Create a React class component that renders "hello world" in an h1 tag. You don't need props for this one.
+      //EASY:  Pass a prop for "name" into the component you just created so the h1 tag reads, "Hello world, {name}"
         <Name  name="Ivan"/>
+      //MEDIUM: Create a child Contact component inside the original component you created that you pass in a firstName, lastName, and phoneNumber and print out "You need to contact {firstName} {lastName} at {phoneNumber}
         <Contact firstName=" Ivan" lastName="Rosario" phoneNumber="704-345-0913"  />
         {contactList}
 
