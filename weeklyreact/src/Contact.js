@@ -4,7 +4,7 @@ class Contact extends Component {
   constructor() {
     super();
     this.handleClick = this.handleClick.bind(this);
-
+//VERY HARD: In your list of Contacts, have a status icon by each one that starts as orange "Pending" status. Then have a call button that when clicked, changes the state to a green "Done" status.
     this.state = ({
       status: "pending...",
       className:"pending",
